@@ -22,7 +22,7 @@ function clear() {
     <title>Document</title>
 </head>
 <body>
-<div style="background-color: pink">
+<!-- <div style="background-color: pink"> -->
     <?php
     if ($_SESSION["login"] == "ok") {
     echo '<img src="images/'.$_SESSION["image"].'">';
